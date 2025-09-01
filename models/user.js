@@ -1,6 +1,6 @@
 const mongoose=require('mongoose')
 try {
-    mongoose.connect("mongodb+srv://harshrajsingh_db_user:Hararu@cluster1.1hm3tfq.mongodb.net/");
+    mongoose.connect("");
     console.log("connected");
     
 } catch (error) {
